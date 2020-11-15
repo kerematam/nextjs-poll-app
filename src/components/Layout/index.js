@@ -2,20 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from 'components/Header';
-import Banner from 'components/Banner';
 import Footer from 'components/Footer';
+import styled from '@emotion/styled';
+
+const LayoutContainer = styled(`div`)`
+  padding: 25px 20%;
+`;
 
 function Layout({ children }) {
   return (
     <>
       <Header />
-
       <main>
-        <Banner />
-
-        {children}
+        <LayoutContainer>{children}</LayoutContainer>
       </main>
-
       <Footer />
     </>
   );
