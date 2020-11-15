@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Showcases /> Should render correctly 1`] = `
+<div>
+  <div
+    class="css-1hvjfqy-Container e1vuap0q0"
+    id="exampleGetApi"
+  >
+    <button
+      class="css-67bxaj-ButonGetApi e1vuap0q1"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Showcases /> When props.loading is true must render component <Spiner /> 1`] = `
+<div>
+  <div
+    class="css-1hvjfqy-Container e1vuap0q0"
+    id="exampleGetApi"
+  >
+    <button
+      class="css-67bxaj-ButonGetApi e1vuap0q1"
+    />
+    <div
+      class="css-d9vn3c-SpinnerRoot elalafq0"
+    />
+  </div>
+</div>
+`;
